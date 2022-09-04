@@ -16,6 +16,7 @@ nav {
     display: flex;
     /*margin: 24px 60px 0 43px;*/
     justify-content: space-between;
+    border: 1px solid purple;
 }
 
 .menu_1{
