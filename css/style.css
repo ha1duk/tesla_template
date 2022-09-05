@@ -14,17 +14,17 @@
 }
 nav {
     display: flex;
-    /*margin: 24px 60px 0 43px;*/
+    margin: 24px 60px 0 43px;
     justify-content: space-between;
+    align-items: center;
     border: 1px solid purple;
 }
 
-.menu_1{
+.menu_1, .menu_2 {
     padding: 0;
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    list-style: none;
     border: 1px solid red;
 }
 .menu_2{
@@ -33,4 +33,14 @@ nav {
     align-items: center;
     list-style: none;
     border: 1px solid green;
+}
+nav li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px #E51937 solid;
 }
